@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1378656558 source:/home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/networkTransClass.cpp
+	"networkTransClass.h"
+
+1378656259 /home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/networkTransClass.h
+	<sys/select.h>
+	<sys/time.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<errno.h>
+	<unistd.h>
+	<sys/wait.h>
+	<string>
+	<map>
+	<vector>
+	<iostream>
+	"DatabaseServer.h"
+	"Sms.h"
+	"Sms_fileServer.h"
+
+1378615951 source:/home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/serv_tcp.cpp
+	<stdio.h>
+	<string.h>
+	"networkTransClass.h"
+
+1378658644 /home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/DatabaseServer.h
+	<string>
+	<set>
+	<vector>
+	<map>
+	<assert.h>
+	"Sms_fileServer.h"
+
+1378656513 /home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/Sms.h
+	<fstream>
+	<iostream>
+	<string>
+	<stdlib.h>
+	<unistd.h>
+	<sstream>
+	<sys/time.h>
+
+1378643973 /home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/Contact.h
+	<map>
+	<string>
+	<iostream>
+	<fstream>
+
+1378612046 /home/zuo/coding/tcp_serv_withdb/tcp_serv_withdb/Sms_fileServer.h
+	"Contact.h"
+	"DatabaseServer.h"
+	"Sms.h"
+	<iostream>
+	<fstream>
+	<assert.h>
+
